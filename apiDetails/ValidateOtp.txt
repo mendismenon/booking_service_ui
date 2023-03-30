@@ -1,0 +1,13 @@
+Validate OTP:
+------------------------------------------------
+URL : http://localhost:3000/validateOtp
+Method: Post
+Request: {"transactionId":"sdfsd@asdads.asd",otp:"123123",email:"asd@asd.asd"}
+Response: {
+	data: {
+		success: 1,
+		email: "asdas@asd.asd",
+        status: "OTP Verified",
+		transactionId: 123123123
+	}
+}

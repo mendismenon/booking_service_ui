@@ -1,0 +1,62 @@
+.cardPrntTicketCls {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    height: 243px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 1.4rem;
+    display: flex;
+}
+
+.cardHeadCls {
+    font-size: 20px;
+    line-height: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+.thrdTicktcardCls{
+    width: 30%;
+}
+.priceSectnTicktCls{
+    display: flex;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+.imgCardTicktCls{
+    width: 10rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.firstTicktcardCls{
+    width: 40%;
+}
+.ticktcardTitleCls{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.priceHeadTicktCrdCls{
+    font-weight: bold;
+}
+.prriceNmTicktCls{
+    padding-left: 1rem;
+}
+.btnGrpTicktCls{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:800px) and (max-width:1200px) {
+    .cardPrntCls {
+        width: 35%;
+    }
+}
+
+@media(max-width:800px) {
+    .cardPrntCls {
+        width: 40%;
+    }
+}

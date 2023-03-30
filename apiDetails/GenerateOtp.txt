@@ -1,0 +1,22 @@
+GenerateOTP:
+------------------------------------------------
+URL : http://localhost:3000/generateOtp
+Method: Post
+Request: {"email":"sdfsd@asdads.asd"}
+Response: {
+	data: {
+		success: 1,
+		email: "asdas@asd.asd",
+        status: "OTP Generated",
+		transactionId: 123123123
+	}
+}
+Failure Response : {
+	data: {
+		success: 0,
+		email: "asdas@asd.asd",
+        status: "OTP Generation Failed",
+		transactionId: 123123123
+		errorMsg: "OTP cannot be generated at this moment"
+	}
+}

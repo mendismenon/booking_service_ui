@@ -1,0 +1,42 @@
+.paymentSummarySkltn{
+    border: 1px solid rgba(9, 28, 63, 0.05);
+    background-color: #fff;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+.sumaryHeadSecCls{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    caret-color: transparent;
+}
+.ticketPriceSecCls{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+.ticktCatCls{
+    width: 40%;
+}
+.ticktCountCls{
+    width: 30%;
+    text-align: right;
+}
+.ticktPriceCls{
+    width: 30%;
+    text-align: right;
+    padding-right: 1rem;
+}
+.ticketHeadSecCls{
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mealHeadSecCls{
+    border-top: 1px solid lightgray;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}

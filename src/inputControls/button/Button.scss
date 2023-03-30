@@ -1,0 +1,45 @@
+.sendbtn{
+    border: none;
+    outline: none !important;
+    color: white;
+    font-size: 14px;
+    background-color: #007DFF;
+    border-radius: 40px;
+    padding: 10px 40px 10px 40px;
+    caret-color: transparent;
+}
+.minusBtnCls{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: red;
+}
+.plusBtnCls{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: green;
+}
+.sendbtn:hover{
+    background-color: #1B6FC9;
+}
+.plusBtnCls:hover{
+    background-color: darkgreen;
+}
+.minusBtnCls:hover{
+    background-color: darkred;
+}
+.secondary{
+    color: #007DFF;
+    background-color: #fff;
+    border: 1px solid #007DFF;
+}
+
+.secondary:hover{
+    background-color: #fff;
+}
+
+.btnDisabledStates:disabled {
+    opacity: 0.3;
+}
+.paymentSummaryCls{
+    width: 40%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

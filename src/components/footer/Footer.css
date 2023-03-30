@@ -1,0 +1,38 @@
+.footrPrntCls{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+.footrFirstSec{
+    padding-left: 5rem;
+}
+.addrClsFtr{
+    width: 300px;
+}
+.footrHeadCls{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.footrThirdSec{
+    padding-right: 5rem;
+}
+
+@media(max-width:800px) {
+    .footrPrntCls{
+        display: block;
+        text-align: center;
+    }
+    .footrFirstSec{
+        padding-left: 0;
+    }
+    .footrHeadCls{
+        padding-top: 2rem;
+    }
+    .footrThirdSec{
+        padding-right: 0;
+    }
+    .addrClsFtr{
+        margin: auto;
+    }
+}

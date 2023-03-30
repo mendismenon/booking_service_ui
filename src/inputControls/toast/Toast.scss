@@ -1,0 +1,17 @@
+.toast-main-div{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    z-index: 1000000000; 
+    border: 1px solid rgba(130, 191, 255, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 3px;
+    transition: top .5s ease;
+}
+
+.toast-msg-cls{
+    font-size: 14px;
+
+}

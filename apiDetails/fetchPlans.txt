@@ -1,0 +1,68 @@
+Fetch plans based on date selection
+-------------------------------------------
+URL : http://localhost:3000/fetchPlans
+Method: Post
+Request: {"date":""}
+Response: {
+  data: {
+    success: 1,
+    status: "Plans fetched",
+    date: "",//pass the same date
+    tickets: [
+      {
+        category: "Adults",
+        price: 1000,
+        GST: "NA",
+        id: 1,
+        img: "https://res.cloudinary.com/ddah6xu0g/image/upload/v1654610735/Booking_System/adult_inzyf4.png"
+      },
+      {
+        category: "Students",
+        price: 300,
+        GST: "NA",
+        id: 2,
+        img: "https://res.cloudinary.com/ddah6xu0g/image/upload/v1654610736/Booking_System/student_xqd4ux.webp"
+      },
+      {
+        category: "Senior Sitizens",
+        price: 500,
+        GST: "NA",
+        id: 3,
+        img:"https://res.cloudinary.com/ddah6xu0g/image/upload/v1654610735/Booking_System/senior_bu276c.png"
+      },
+      {
+        category: "Kids",
+        price: 100,
+        GST: "NA",
+        id: 4,
+        img: "https://res.cloudinary.com/ddah6xu0g/image/upload/v1654610735/Booking_System/kids_wmcho0.webp"
+      },
+    ],
+    meals: [
+        {
+            category: "Breakfast",
+            price: 100,
+            GST: "NA",
+            id: 1
+        },
+        {
+            category: "Lunch",
+            price: 200,
+            GST: "NA",
+            id: 2
+        },
+        {
+            category: "Snacks",
+            price: 50,
+            GST: "NA",
+            id: 3
+        },
+        {
+            category: "Dinner",
+            price: 150,
+            GST: "NA",
+            id: 4
+        }
+    ]
+  },
+}

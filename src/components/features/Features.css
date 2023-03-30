@@ -1,0 +1,40 @@
+.featuresPentCls{
+    background-color: rgba(227, 241, 255, 1);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    display: flex;
+}
+.firstSecFeatrCls{
+    width: 50%;
+    margin: auto;
+}
+.secndSecFeatrCls{
+    width: 50%;
+}
+.fetauresMainHeadCls{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: auto;
+}
+.fertrCardPrntCls{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:800px) {
+    .featuresPentCls{
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .firstSecFeatrCls {
+        width: 100%;
+    }
+    .secndSecFeatrCls{
+        width: 100%;
+    }
+    .fertrCardPrntCls{
+        justify-content: center;
+    }
+}

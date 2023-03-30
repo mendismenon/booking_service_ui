@@ -1,0 +1,380 @@
+// div{
+//        border: 1px solid red;
+// }
+ .modal-body .signInparentCls{
+   background-image: none;
+   height: auto;
+ }
+ 
+.HomeheaderCls .navbar {
+  font-size: 16px;
+  background-color: white;
+  /* padding-top: 10px; */
+  padding: 20px 0px 0px 0px;
+  // background: linear-gradient(white, rgba(255, 255, 255, 0.3));
+}
+.homeWrapperComponents{
+  display: flex;
+  box-shadow: 0px 10px 30px rgb(94 125 182 / 10%);
+}
+
+#login-link {
+  border: none;
+  outline: none;
+  width: 140px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 13px;
+  background: #fff;
+  color: #1987FB;
+  border: 1px solid #1987FB;
+  cursor: pointer;
+}
+
+.HomeheaderCls .main-nav {
+  list-style-type: none;
+  // display: none;
+}
+
+.main-navigation {
+  list-style-type: none;
+}
+
+.HomeheaderCls .nav-links,
+.HomeheaderCls .logo {
+  text-decoration: none;
+}
+
+.HomeheaderCls .logo {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.HomeheaderCls .onsuimg {
+  height: 35px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#getapp {
+  border: none;
+  outline: none;
+  color: #007CFF;
+  width: 140px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 13px;
+  background: #FFFFFF;
+  border: 1px solid rgba(9, 28, 63, 0.25);
+  cursor: pointer;
+}
+
+#getapp:hover {
+  border: 1px solid #007CFF;
+  color: #007CFF;
+  // transition: color 500ms;
+  // transition: border 500ms;
+}
+
+.selectedNav {
+  color: #007CFF !important;
+}
+
+#myaccount {
+  border: none;
+  outline: none;
+  width: 140px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 13px;
+  color: white;
+  background-color: #007DFF;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+#myaccount:hover {
+  background-color: #1B6FC9;
+}
+#navv{
+  font-size: 17px;
+  color: #091C3F;
+  line-height: 19px;
+}
+
+.HomeheaderCls .header {
+  /* border: 1px solid green; */
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.HomeheaderCls .getappflex {
+  padding-top: 0px;
+}
+
+.HomeheaderCls .navbar-toggle {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
+}
+
+.HomeheaderCls .active {
+  display: block;
+  padding: 0px;
+  margin-top: 60px;
+}
+
+.HomeheaderCls .headMob {
+  display: none;
+  height: 70px;
+}
+
+#navv:hover {
+  color: #1987FB;
+}
+
+.HomeheaderCls .headWeb {
+  display: block;
+  height: 70px;
+}
+
+.acount-details-div {
+  position: absolute;
+  width: 240px;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(94, 125, 182, 0.1);
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.acchol-name {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 18px;
+  color: #091C3F;
+}
+
+.achol-numnber {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #6B778C;
+  margin-top: 5px;
+}
+
+.wrp-account-sec {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.account-sec-hr {
+  width: 90%;
+  border-top: .3px solid rgba(123, 130, 146, 0.4);
+  margin-top: 15px;
+}
+
+.dashboard-emp {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #1987FB;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logout-sec {
+  font-size: 14px;
+  color: #091C3F;
+  margin-top: 10px;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+ .HomeheaderCls .liLink {
+    margin-bottom: auto !important ;
+  }
+
+//   body > #header{position:fixed;}
+//   #mscrollShadow {
+//     transition: all 0.5s linear;
+// }
+
+//   #mscrollShadow.active {
+//       box-shadow: 0 0 10px rgba(0,0,0,0.4);
+//   }
+
+
+
+@media screen and (min-width: 800px) {
+
+  .HomeheaderCls .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0px 0px 0px;
+    align-items: center;
+    /*box-shadow: -1px 0.5px 0.5px 0px #d7d4d4;*/
+    /* box-shadow: -1px 9px 20px 0px #d7d4d4; */
+    /* border: 1px solid red; */
+  }
+
+
+  .HomeheaderCls .main-nav {
+    display: flex;
+    margin-right: 30px;
+    width: 700px;
+    padding: 0px;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+
+  .HomeheaderCls .main-nav li {
+    margin: auto;
+  }
+
+  .HomeheaderCls .nav-links {
+    margin-left: 30px;
+    /* margin-right: 10px;  */
+  }
+
+  .navbr-navv-links {
+    margin-left: 0px;
+  }
+
+  .HomeheaderCls .logo {
+    margin-bottom: 20px;
+  }
+
+  .HomeheaderCls .navbar-toggle {
+    display: none;
+  }
+
+  .HomeheaderCls .nav-links:hover {
+    color: #1987FB;
+    justify-content: center;
+  }
+
+  .navbr-navv-links {
+    color: #1987FB;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .HomeheaderCls .navbar {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .HomeheaderCls .main-nav {
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .main-navigation {
+    padding: 0px;
+    margin-left: 0px;
+  }
+  // .HomeheaderCls .liLink {
+  //   margin-bottom: auto !important ;
+  // }
+}
+
+@media(max-width:800px) {
+  .HomeheaderCls .navbar {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 10px 20px 10px;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(94, 125, 182, 0.1)
+  }
+
+  .HomeheaderCls .headWeb {
+    display: none;
+  }
+
+  .HomeheaderCls .main-nav {
+    height: 90vh;
+    padding-top: 30px;
+  }
+
+  .main-navigation {
+    display: none;
+    height: 90vh;
+    padding-top: 30px;
+    text-align: center;
+
+  }
+
+  .HomeheaderCls .onsuimg {
+    height: 30px;
+    margin-top: 0px;
+  }
+
+  .HomeheaderCls .header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-nav:hover {
+    color: #1987FB;
+
+  }
+
+  .main-navigation:hover {
+    color: #1987FB;
+  }
+
+  .HomeheaderCls .logo {
+    text-align: center;
+  }
+
+  .HomeheaderCls .liLink {
+    padding: 15px 0px 15px 0px;
+    font-size: 22px;
+  }
+
+  .navbr-lilinks-divv {
+    padding: 15px 0px 15px 0px;
+    font-size: 22px;
+    // text-align: center;
+  }
+
+  .HomeheaderCls .headMob {
+    display: block;
+    font-size: 22px;
+  }
+
+  #navv {
+    font-size: 22px;
+  }
+
+  #aboutus {
+    color: #091C3F;
+
+  }
+
+  #navv:hover {
+    color: #1987FB;
+  }
+
+  #aboutus:hover {
+    color: #1987FB;
+  }
+
+  .HomeheaderCls .logo {
+    margin-left: 16px;
+  }
+
+}

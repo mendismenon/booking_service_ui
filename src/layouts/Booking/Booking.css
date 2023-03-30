@@ -1,0 +1,140 @@
+.bookingHdrCls {
+    background-color: rgb(245, 249, 255);
+    height: 100%;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.bookingCardSkltn {
+    border: 1px solid rgba(9, 28, 63, 0.05);
+    background-color: #fff;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.bookkingDtlsCls {
+    padding-left: 5rem;
+    width: 60%;
+}
+
+.bookDateSelectnCls {
+    font-weight: bold;
+    font-size: 1.5rem;
+    caret-color: transparent;
+}
+
+.imgDtaeBkCls {
+    width: 5rem;
+}
+
+.datePickCmbCls {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.datePickCmbCls>.react-datepicker-wrapper {
+    align-self: center;
+    margin-left: 5rem;
+}
+
+.datePickCmbCls>.react-datepicker-wrapper input {
+    line-height: 3em;
+    font-size: 1.1em;
+}
+
+.margnTp3rem {
+    margin-top: 3rem;
+}
+
+.collapse {
+    visibility: hidden;
+    transition: opacity 2s ease-out;
+    opacity: 0;
+    max-height: 0;
+}
+
+.expand {
+    visibility: visible;
+    transition: ease-out 2s;
+    transition: opacity 2s ease-out;
+    opacity: 1;
+}
+
+.colapseExpndDivCls {
+    cursor: pointer;
+    background-color: #007DFF;
+    padding: 0.1rem;
+    color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    caret-color: transparent;
+}
+
+.prntCardTcktDivCls {
+    border-radius: 1rem;
+    width: 90%;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 lightblue;
+    margin-top: 2rem;
+}
+
+.categoryColpseExpnd {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.colpseExpndImg {
+    width: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.priceColpseExpnd {
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+
+.colapseExpndDivCls>div:nth-child(1) {
+    width: 30%;
+}
+
+.colapseExpndDivCls>div:nth-child(0) {
+    width: 50%;
+}
+
+.colapseExpndDivCls>div:nth-child(2) {
+    width: 20%;
+}
+
+.colapseExpndDivCls .expandimg {
+    transition: 0.5s;
+    transform: rotate(180deg);
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.colapseExpndDivCls .collapseimg {
+    transition: 0.5s;
+
+}
+
+.selectMealSectn {
+    display: flex;
+    justify-content: space-between;
+}
+.imgRightArwCls{
+    padding-left: 1rem;
+    padding-right: 1rem;    
+}
+.mainSliderOrg{
+    display: flex;
+    overflow-x: auto;
+}
+.mainSliderOrg::-webkit-scrollbar{
+    width: 1px;
+}

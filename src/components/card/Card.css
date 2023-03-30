@@ -1,0 +1,30 @@
+.cardPrntCls {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    height: 243px;
+    border-radius: 10px;
+    width: 25%;
+    margin: 0.5rem;
+}
+
+.cardHeadCls {
+    font-size: 20px;
+    line-height: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media(min-width:800px) and (max-width:1200px) {
+    .cardPrntCls {
+        width: 35%;
+    }
+}
+
+@media(max-width:800px) {
+    .cardPrntCls {
+        width: 40%;
+    }
+}

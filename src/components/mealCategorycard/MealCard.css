@@ -1,0 +1,38 @@
+.OrgDynamicCards {
+    padding: 7px;
+    width: 280px;
+    background-color: #fff;    
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px 10px 0px;
+}
+
+.CardDymcHeading {
+    color: #091C3F;
+    caret-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cntHead_sn {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150.6%;
+}
+
+.cnt_subH_sn {
+    caret-color: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 150.6%;
+    text-align: center;
+    letter-spacing: 0.0045em;
+    color: rgba(9, 28, 63, 0.6);
+}
+.slideCardSectnCls{
+    width: 250px;
+    height: 290px;
+}
+.imgMealCls{
+    width: 100%;
+}
