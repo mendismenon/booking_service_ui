@@ -6,7 +6,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { subDays } from "date-fns";
 import { useDispatch, useSelector } from "react-redux";
-import { planFetch, PLAN_SELECT } from "../../redux/actions/StateAction";
+import { planFetch } from "../../redux/actions/StateAction";
 import { fetchPlanApiActn } from "../../redux/actions/BookingPlanActn";
 import Loader from "../../components/loader/Loader";
 import Card from "../../components/ticketCategotycard/Card";
@@ -18,7 +18,7 @@ import {
   PERSONS,
 } from "../../utils/Constants";
 import MealCard from "../../components/mealCategorycard/MealCard";
-import { heightWidthCalc, SideScroll } from "../../utils/Utils";
+import { SideScroll } from "../../utils/Utils";
 import PaymentSummary from "../../components/paymentSummary/PaymentSummary";
 
 const Booking = () => {
@@ -180,13 +180,13 @@ const Booking = () => {
             </div>
             <div className="datePickCmbCls">
               <img
-                className="imgDtaeBkCls"
+                className="imgDtaeBkCls" alt="date"
                 src="https://res.cloudinary.com/ddah6xu0g/image/upload/v1654198161/Booking_System/slide1_psewtv.png"
               />
               <DatePicker
                 selected={
                   typeof selectPlanObj.date === "string" &&
-                  selectPlanObj.date != ""
+                  selectPlanObj.date !== ""
                     ? new Date(selectPlanObj.date)
                     : selectPlanObj?.date
                 }
@@ -225,7 +225,7 @@ const Booking = () => {
                         </div>
                         <div>
                           <img
-                            className={`colpseExpndImg ${lobj.className}img`}
+                            className={`colpseExpndImg ${lobj.className}img`} alt="collpase"
                             src="https://res.cloudinary.com/ddah6xu0g/image/upload/v1654694729/Booking_System/expandIcn_pqjkho.png"
                           />
                         </div>

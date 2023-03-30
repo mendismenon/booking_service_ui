@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "../App";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import NotFound from "../layouts/404/NotFound";
 import Booking from "../layouts/Booking/Booking";
 import Home from "../layouts/Home/Home";

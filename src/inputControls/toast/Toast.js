@@ -25,7 +25,7 @@ export default function Toast() {
     })
 
     useEffect(() => {
-      if(top == "70")
+      if(top === "70")
       {
          setTimeout(() => {
             setTop("-100")

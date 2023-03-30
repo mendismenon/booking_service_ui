@@ -19,7 +19,7 @@ const StateReducer = (state = initialState, action) => {
             return {...state, verify:{
                 email: action.data
             }}
-        };
+        }
         case PLAN_SELECT: {
             return{
                 ...state, planSelected: action.data

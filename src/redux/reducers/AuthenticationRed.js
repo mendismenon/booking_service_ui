@@ -32,7 +32,7 @@ const AuthReducer = (state = initialState, action) => {
           data: null,
           validOtpData: null,
         },
-      };
+      }
     case GENERATE_OTP_SUCCESS:
       return {
         ...state,
@@ -45,7 +45,7 @@ const AuthReducer = (state = initialState, action) => {
           error: false,
           validOtpData: null,
         },
-      };
+      }
     case GENERATE_OTP_FAILURE:
       return {
         ...state,
@@ -58,7 +58,7 @@ const AuthReducer = (state = initialState, action) => {
           error: true,
           validOtpData: null,
         },
-      };
+      }
     case GENERATE_OTP_INITIALIZE:
       return {
         ...state,
@@ -71,7 +71,7 @@ const AuthReducer = (state = initialState, action) => {
           validOtpData: null,
           error: false,
         },
-      };
+      }
     case VALIDATE_OTP: {
       return {
         ...state,
@@ -84,8 +84,8 @@ const AuthReducer = (state = initialState, action) => {
           error: false,
           validOtpData: null,
         },
-      };
-    };
+      }
+    }
     case VALIDATE_OTP_SUCCESS: {
       return {
         ...state,
@@ -98,8 +98,8 @@ const AuthReducer = (state = initialState, action) => {
           error: false,
           validOtpData: action?.data,
         },
-      };
-    };
+      }
+    }
     case VALIDATE_OTP_FAILURE: {
       return {
         ...state,
@@ -112,8 +112,8 @@ const AuthReducer = (state = initialState, action) => {
           error: false,
           validOtpData: action?.data,
         },
-      };
-    };
+      }
+    }
     default:
       return state;
   }
